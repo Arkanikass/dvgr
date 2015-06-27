@@ -1,0 +1,32 @@
+/* 
+    Created on : 27 juin 2015, 19:42:41
+    Author     : Kassandra
+*/
+/*
+    bleu : #5bcefa
+    rose : #f5a9b8
+*/
+
+
+
+.event {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .event {
+        display: block;
+        width: 300px;
+        height: 150px;
+        border: solid #5bcefa 2px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+}
+}
+
+
